@@ -1,0 +1,6 @@
+image: matthewtingum/muslcc-armel-linux-musleabi:0.1
+
+aliases:
+  test:
+    script:
+      - armel-linux-musleabi-gcc main.c -static -o test
